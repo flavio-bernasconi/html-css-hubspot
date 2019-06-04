@@ -110,20 +110,24 @@ nav * {
   height: 80px;
 }
 
+.btn-nav-white{
+  background: white;
+  padding: 10px 15px;
+  margin: auto;
+  text-align: center;
+  color: #ff7b59;
+  margin-right: 10px;
+}
+
+
 .btn-nav-orange{
   background: #ff7b59;
-  padding: 15px;
+  padding: 10px 15px;
   margin: auto;
   text-align: center;
   color: white;
 }
-.btn-nav-white{
-  background: white;
-  padding: 15px;
-  margin: auto;
-  text-align: center;
-  color: #ff7b59
-}
+
 
 
 
@@ -177,7 +181,7 @@ margin-bottom: 30px;
 
 
 
-main .img-center{
+div .img-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -190,7 +194,7 @@ main .img-center{
 
 
 .bk-gray{
-  background: rgb(235, 235, 235);
+  background: rgb(244, 244, 244);
   padding-bottom: 5rem;
 }
 .bk-gray .title{
@@ -285,7 +289,7 @@ main .img-center{
 }
 
 
-/* sezione clienti azzurra */
+/* sezione supporto azzurra */
 .azzurro{
   background-color: #00abb5;
   text-align: center;
@@ -293,13 +297,17 @@ main .img-center{
   color:white
 }
 
-.padding-2  h3{
-  font-size: 3ren;
+.azzurro .padding-2  h3{
+  font-size: 2em;
+  line-height: 2.5rem;
+  margin-bottom: 40px;
 }
 
 .azzurro table{
+  width: 100%;
   margin: auto;
   margin-top: 90px;
+  padding-bottom: 60px;
 }
 
 .azzurro table td img , h3{
@@ -307,13 +315,39 @@ main .img-center{
 }
 
 .azzurro td {
-  border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd;
   padding: 15px;
 }
 
-
 .azzurro td:first-child {
   border-left: none;
+}
 
+
+/* sezione clienti grigia */
+.clients .padding-2::after{
+  display: grid;
+  content: '';
+  clear: both;
+}
+
+.un-terzo{
+  width: 30%
+}
+
+.clients{
+  padding-top: 3rem;
+}
+
+.numerone{
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.clients table td{
+  padding: 10px;
+}
+
+.clients table td img{
+  width: 140px;
 }
