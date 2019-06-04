@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700&display=swap');
+
 *{
-  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  line-height: 2rem;
+  font-weight: 200;
+}
+a{
+  color: black;
+}
+h1,h2,h3,h4,{
+  font-weight: 600;
 }
 
+
+.left {
+  float:left;
+}
+.right{
+  float:right;
+}
 
 .padding{
   max-width: 1300px;
   margin:auto;
-  padding:3rem;
 }
+
 .half{
   width: 50%;
 }
@@ -18,15 +39,91 @@
   margin-right: auto;
   width: 50%;
 }
-
-
-nav img{
-  float: left;
+.img-full{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.menu-items a{
-  float: right;
-  display: inline;
-  padding: 7px;
-  width: calc(50% / 6);
+
+
+header{
+  width: 100%;
+  color: white;
+  height: 73vh;
+  position: relative;
+}
+header::after{
+  display: grid;
+  content: '';
+  clear: both;
+}
+
+header nav{
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+
+nav * {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem ;
+}
+
+
+
+
+.bk-w{
+  background: white;
+  padding: 1rem;
+}
+
+header .text-header > h1{
+font-size: 4rem;
+margin-bottom: 30px;
+}
+
+header .text-header > p{
+
+margin-bottom: 30px;
+}
+
+.img-text-header{
+  padding-top: 80px;
+}
+
+.text-header{
+  position: relative;
+}
+
+.btn{
+  position: absolute;
+  display: block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  height: 90px;
+  width: 230px;
+  text-align: center;
+}
+
+
+.btn a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+
+
+.sfondo-header{
+  background-image: url('img/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
