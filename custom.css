@@ -319,6 +319,11 @@ div .img-center{
   padding: 15px;
 }
 
+.azzurro tr:first-child td {
+  border-bottom: 1px solid #ddd;
+}
+
+
 .azzurro td:first-child {
   border-left: none;
 }
@@ -349,5 +354,29 @@ div .img-center{
 }
 
 .clients table td img{
-  width: 140px;
+  padding: 20px;
+  width: 120px;
+}
+
+
+
+
+
+
+.people .padding-2::after{
+  display: grid;
+  content: '';
+  clear: both;
+}
+.people .text-header > h1{
+font-size: 4rem;
+margin-bottom: 30px;
+}
+
+.people  .text-header > p{
+margin-bottom: 30px;
+}
+
+.people .btn-orange{
+  float: left;
 }
