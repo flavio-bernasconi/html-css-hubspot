@@ -34,7 +34,7 @@ h1,h2,h3,h4,{
   margin:auto;
 }
 .padding-2{
-  max-width: 1000px;
+  max-width: 1100px;
   margin:auto;
 }
 
@@ -171,11 +171,6 @@ margin-bottom: 30px;
   text-transform:  capitalize;
   white-space: nowrap;
 }
-
-
-
-
-
 
 
 
@@ -342,6 +337,7 @@ div .img-center{
 
 .clients{
   padding-top: 3rem;
+  margin-bottom: 60px;
 }
 
 .numerone{
@@ -379,4 +375,38 @@ margin-bottom: 30px;
 
 .people .btn-orange{
   float: left;
+}
+
+.people .btn-orange a{
+color: white
+}
+
+
+
+footer{
+  background:#32475b;
+  color: white;
+  padding: 4rem;
+}
+
+footer .colonne{
+  margin:auto;
+  position: relative;
+}
+
+footer .colonna{
+  display: inline-block;
+  width: calc(100% / 4.3);
+  height: 30vh;
+  top: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+
+footer ul li a{
+  color: white;
+  line-height: 2rem
 }
