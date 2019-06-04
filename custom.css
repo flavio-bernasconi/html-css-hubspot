@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.padding{
+  max-width: 1300px;
+  margin:auto;
+  padding:3rem;
+}
+.half{
+  width: 50%;
+}
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+nav img{
+  float: left;
+}
+
+.menu-items a{
+  float: right;
+  display: inline;
+  padding: 7px;
+  width: calc(50% / 6);
+}
