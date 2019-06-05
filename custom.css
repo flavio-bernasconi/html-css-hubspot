@@ -417,6 +417,7 @@ transform: translateY(-10px);
 .clients table td img{
   padding: 20px;
   width: 120px;
+  opacity: .7
 }
 
 
