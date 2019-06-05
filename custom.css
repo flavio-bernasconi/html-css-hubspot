@@ -15,12 +15,17 @@ p{
   font-weight: 200;
 }
 a{
-  color: black;
+  color:  #32475b;
   text-decoration: none;
 }
-h1,h2,h3,h4,{
+h1 , h2 , h3 , h4{
   font-weight: 600;
 }
+
+.t-blu{
+  color: #32475b
+}
+
 
 .left {
   float:left;
@@ -111,18 +116,20 @@ nav * {
 .bk-w{
   background: white;
   padding: 1rem;
+
 }
 
 .links{
   font-weight: 700;
   font-size: 16px;
   margin-top: 10px;
+  color: #32475b;
 }
 
 /* REGOLE menu fisso */
 .bk-fix{
   position: fixed;
-  background: rgb(221, 221, 221);
+  background: #f5f8fa;
   padding: 1rem;
   width: 100%;
   top: 0;
@@ -343,8 +350,9 @@ transform: translateY(-10px);
   background-color: #00abb5;
   text-align: center;
   padding-top: 50px;
-  color:white
+  color:white;
 }
+
 
 .azzurro .padding-2 > h3{
   font-size: 2em;
@@ -412,6 +420,7 @@ transform: translateY(-10px);
 
 
 
+/* SEZIONE CLIENTI */
 
 
 .people .padding-2::after{
