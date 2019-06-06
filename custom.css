@@ -265,11 +265,13 @@ div .img-center{
   clear: both;
 }
 
-.oriz .left img{
+.oriz img{
   display: block;
   width: 230px;
   margin: auto;
 }
+
+
 
  .btn-orange{
   display: block;
@@ -289,14 +291,6 @@ div .img-center{
 .oriz ul li{
   display: inline;
 }
-
-
-
-.vert > hr{
-  border-top: 1px solid #e0e6ed;
-}
-
-
 
 
 
@@ -329,7 +323,7 @@ transform: translateY(-10px);
 
 .vert  img{
   display: block;
-  width: 230px;
+  height: 140px;
   margin: auto;
   margin-bottom: 40px;
 }
@@ -343,6 +337,11 @@ transform: translateY(-10px);
   text-align: left;
   line-height: 1.7rem;
 }
+
+.vert > hr{
+  border-top: 1px solid #e0e6ed;
+}
+
 
 
 /* sezione supporto azzurra */
@@ -492,6 +491,7 @@ footer ul li a{
 footer .lingue{
   width: 50%;
  margin: 0 auto;
+ padding-top: 80px;
 }
 
 footer .lingue a{
