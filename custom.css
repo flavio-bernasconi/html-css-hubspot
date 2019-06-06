@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 1px;
 }
 p{
   line-height: 2rem;
@@ -348,7 +349,7 @@ transform: translateY(-10px);
 .azzurro{
   background-color: #00abb5;
   text-align: center;
-  padding-top: 50px;
+  padding: 8% 0;
   color:white;
 }
 
@@ -484,7 +485,8 @@ footer ul {
 
 footer ul li a{
   color: white;
-  line-height: 2rem
+  line-height: 2rem;
+  font-size: 13px;
 
 }
 
